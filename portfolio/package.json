@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.6",
@@ -27,7 +26,6 @@
     "three-globe": "^2.31.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.11.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
