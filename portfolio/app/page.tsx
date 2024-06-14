@@ -3,6 +3,8 @@ import { Hero } from "@/components/hero"
 import { FloatingNav } from "@/components/ui/floating-nav"
 import { FaHome } from "react-icons/fa"
 
+export const runtime = "edge"
+
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex flex-col justify-center items-center overflow-hidden mx-auto sm:px-10 px-5">
